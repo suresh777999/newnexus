@@ -22,4 +22,15 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+  <repository>
+    <id>release</id>
+    <url>http://ec2-52-14-220-185.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/release</url>
+  </repository>
+   <snapshotRepository>
+    <id>snapshot</id>
+    <url>http://ec2-52-14-220-185.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/snapshot</url>
+  </snapshotRepository>
+</distributionManagement>
+  
 </project>
